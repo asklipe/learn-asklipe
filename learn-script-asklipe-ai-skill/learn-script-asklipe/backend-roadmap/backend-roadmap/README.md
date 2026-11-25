@@ -1,274 +1,240 @@
 <div align="center">
 
-<img src="assets/images/banner.svg" alt="Learn Script — Back-End Roadmap por asklipe" width="760" />
+<img src="https://i.ibb.co/mYN5FPv/learnasklipe-1.png" alt="asklipe — Back-End Roadmap" width="600"/>
 
-# Learn Script · Back-End Roadmap
+---
 
-**A trilha de estudos que asklipe organizou para aprender e compartilhar desenvolvimento Back-End.**
+![Status](https://img.shields.io/badge/status-em_andamento-2F81F7?style=flat-square)
+![Foco](https://img.shields.io/badge/foco-Back--End-2F81F7?style=flat-square)
+![Linguagem](https://img.shields.io/badge/linguagem-Python-2F81F7?style=flat-square&logo=python&logoColor=white)
+![Docs](https://img.shields.io/badge/docs-pt--BR-2F81F7?style=flat-square)
+[![GitHub](https://img.shields.io/badge/GitHub-asklipe-0D1117?style=flat-square&logo=github)](https://github.com/asklipe)
 
-[![Projeto](https://img.shields.io/badge/projeto-Learn%20Script-2563EB?style=for-the-badge&logo=github)](https://github.com/asklipe)
-[![Admin](https://img.shields.io/badge/admin-asklipe-0D1117?style=for-the-badge&logo=github)](https://github.com/asklipe)
-[![Trilha](https://img.shields.io/badge/trilha-Back--End-0F766E?style=for-the-badge)](ROADMAP.md)
-[![Idioma](https://img.shields.io/badge/idioma-pt--BR-64748B?style=for-the-badge)](#)
-
-[Roadmap](ROADMAP.md) · [Acompanhamento](STUDY-TRACKER.md) · [Recursos](RESOURCES.md) · [Assistente de IA](AI-ASSISTANT.md) · [Como contribuir](CONTRIBUTING.md)
+[Roadmap](ROADMAP.md) · [Progresso](STUDY-TRACKER.md) · [Recursos](RESOURCES.md) · [Contribuindo](CONTRIBUTING.md)
 
 </div>
 
 ---
 
-## O que é o Learn Script?
+## O que é este repositório?
 
-O **Learn Script** é a trilha pública de estudos de **asklipe**. Este repositório reúne os cursos, aulas, documentações, exercícios, projetos e critérios que compõem a jornada de aprendizado apresentada por ele.
+Esta é a minha trilha de estudos real para me tornar Desenvolvedor Back-End.
 
-A ideia é compartilhar um caminho real e organizado: quem quiser estudar os mesmos assuntos pode fazer um fork, seguir a sequência e adaptar o acompanhamento à própria evolução. O repositório não promete transformar ninguém em profissional automaticamente; ele oferece uma estrutura de estudo, prática e registro.
+Mas não fiz isso só para mim — organizei tudo aqui para que qualquer pessoa possa seguir o mesmo caminho. Se você quer entrar na área de Back-End e não sabe por onde começar, este é o lugar certo. Cada módulo tem objetivos claros, aulas em vídeo que você pode assistir diretamente por aqui, exercícios, projetos e um critério claro de quando você pode avançar.
 
-**Importante:** o conteúdo-base e a seleção de materiais representam a trilha publicada por asklipe. Ao fazer um fork, você cria sua própria cópia para registrar seu progresso, sem alterar o repositório original.
+---
 
-## Quem mantém
+## Para quem é este roadmap/rep?
 
-| Campo | Informação |
-|---|---|
-| Projeto | Learn Script |
-| Admin / mantenedor | **asklipe** |
-| GitHub | [@asklipe](https://github.com/asklipe) |
-| Foco | Desenvolvimento Back-End |
-| Linguagem central da trilha | Python |
-| Idioma | Português (Brasil) |
+Este guia foi pensado para quem:
 
-Issues e contribuições devem respeitar o escopo e as diretrizes deste repositório. A administração do projeto original pertence a asklipe; cada pessoa administra o próprio fork.
+- Quer entrar na área de **desenvolvimento back-end**
+- Não tem experiência prévia em programação
+- Prefere aprender com **cursos gratuitos em português**
+- Quer uma trilha com **começo, meio e fim bem definidos**
 
-## Para quem é esta trilha?
+> Se essa é a sua situação, você está no lugar certo. Comece pelo módulo 01 e siga a ordem.
 
-- Para quem quer estudar os mesmos fundamentos e tecnologias da jornada publicada por asklipe.
-- Para quem está começando ou quer organizar melhor a base de Back-End.
-- Para quem prefere materiais gratuitos, especialmente em português.
-- Para quem quer aprender fazendo exercícios e projetos, não apenas assistindo a vídeos.
-- Para quem deseja usar uma IA conectada ao GitHub para acompanhar e registrar a própria evolução.
+---
 
-## Jornada de estudos
+## Objetivo 
+
+Atuar como **Back-End Developer**, construindo APIs seguras, bem testadas e prontas para produção.
+
+---
+
+## Tecnologias
+
+<img src="https://cdn.simpleicons.org/python/ffffff" height="40" alt="Python" title="Python" />
+<img width="12" />
+<img src="https://cdn.simpleicons.org/fastapi/ffffff" height="40" alt="FastAPI" title="FastAPI" />
+<img width="12" />
+<img src="https://cdn.simpleicons.org/postgresql/ffffff" height="40" alt="PostgreSQL" title="PostgreSQL" />
+<img width="12" />
+<img src="https://cdn.simpleicons.org/mysql/ffffff" height="40" alt="MySQL" title="MySQL" />
+<img width="12" />
+<img src="https://cdn.simpleicons.org/docker/ffffff" height="40" alt="Docker" title="Docker" />
+
+
+<img width="12" />
+<img src="https://cdn.simpleicons.org/git/ffffff" height="40" alt="Git" title="Git" />
+<img width="12" />
+<img src="https://cdn.simpleicons.org/github/ffffff" height="40" alt="GitHub" title="GitHub" />
+
+---
+
+## Visão geral da jornada
 
 ```mermaid
 flowchart LR
-    A["01 · Lógica"] --> B["02 · Python"]
-    B --> C["03 · Git e GitHub"]
-    C --> D["04 · SQL"]
-    D --> E["05 · PostgreSQL"]
-    E --> F["06 · FastAPI"]
-    F --> G["07 · Docker"]
-    G --> H["08 · AWS"]
+    A[01 Lógica] --> B[02 Python]
+    B --> C[03 Git e GitHub]
+    C --> D[04 SQL]
+    D --> E[05 PostgreSQL]
+    E --> F[06 FastAPI]
+    F --> G[07 Docker]
+    G --> H[08 AWS]
 ```
 
-A sequência completa, as dependências e os critérios de avanço estão em [ROADMAP.md](ROADMAP.md).
+> Detalhes e justificativa da ordem em [ROADMAP.md](ROADMAP.md).
 
-## Stack estudada
+---
 
-<div align="center">
-<a href="https://www.python.org/"><img src="https://cdn.simpleicons.org/python/3776AB" alt="Python" height="42"></a>&nbsp;&nbsp;
-<a href="https://fastapi.tiangolo.com/"><img src="https://cdn.simpleicons.org/fastapi/009688" alt="FastAPI" height="42"></a>&nbsp;&nbsp;
-<a href="https://www.postgresql.org/"><img src="https://cdn.simpleicons.org/postgresql/4169E1" alt="PostgreSQL" height="42"></a>&nbsp;&nbsp;
-<a href="https://www.mysql.com/"><img src="https://cdn.simpleicons.org/mysql/4479A1" alt="MySQL" height="42"></a>&nbsp;&nbsp;
-<a href="https://www.docker.com/"><img src="https://cdn.simpleicons.org/docker/2496ED" alt="Docker" height="42"></a>&nbsp;&nbsp;
-<a href="https://git-scm.com/"><img src="https://cdn.simpleicons.org/git/F05032" alt="Git" height="42"></a>&nbsp;&nbsp;
-<a href="https://github.com/"><img src="https://cdn.simpleicons.org/github/FFFFFF" alt="GitHub" height="42"></a>&nbsp;&nbsp;
-<a href="https://aws.amazon.com/"><img src="https://cdn.simpleicons.org/amazonaws/FF9900" alt="AWS" height="42"></a>
-</div>
+## Módulos e aulas em vídeo
 
-## Cursos, vídeos e previews
+Clique na thumbnail para assistir no YouTube.
 
-As capas abaixo são thumbnails públicas do YouTube. Clique em uma capa para abrir o vídeo; os links de playlist levam à sequência completa. O título exibido identifica o material indicado na trilha. Quando um vídeo individual ou uma playlist ainda não foi confirmado, isso fica sinalizado no respectivo módulo — não inventamos IDs, títulos ou links para preencher lacunas.
+---
 
-<details open>
-<summary><strong>01 · Lógica de Programação</strong> — Gustavo Guanabara / Curso em Vídeo</summary>
+### 01 — Lógica de Programação
 
-**Curso:** [Curso de Algoritmos e Lógica de Programação](https://www.cursoemvideo.com/curso/curso-de-algoritmo/)
+**Professor:** Gustavo Guanabara — Curso em Vídeo
 
 [![Introdução ao curso de Algoritmos](https://img.youtube.com/vi/8mei6uVttho/hqdefault.jpg)](https://www.youtube.com/watch?v=8mei6uVttho)
 
-- [Abrir vídeo de introdução](https://www.youtube.com/watch?v=8mei6uVttho)
-- [Playlist completa](https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV)
-- [Conteúdo e exercícios](01-programming-logic/README.md)
+**Por que começar aqui?** Antes de qualquer linguagem, você precisa aprender a pensar como programador. Lógica é a base de tudo — pule essa etapa e vai sentir dificuldade em todos os módulos seguintes.
 
-</details>
+[![Playlist](https://img.shields.io/badge/Playlist_completa-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLHz_AreHm4dmSj0MHol_aoNYCSGFqvfXV)
 
-<details open>
-<summary><strong>02 · Python — Mundos 1, 2 e 3</strong> — Gustavo Guanabara / Curso em Vídeo</summary>
+---
 
-[![Python 3 — Mundo 1 — Aula 01](https://img.youtube.com/vi/S9uPNppGsGo/hqdefault.jpg)](https://www.youtube.com/watch?v=S9uPNppGsGo)
+### 02 — Python (Mundos 1, 2 e 3)
 
-- [Python — Mundo 1](https://www.youtube.com/playlist?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6)
-- [Python — Mundo 2](https://www.youtube.com/playlist?list=PLHz_AreHm4dk_nZHmxxf_J0WRAqy5Czye)
-- [Python — Mundo 3](https://www.youtube.com/playlist?list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH)
-- [Aula inicial do Mundo 1](https://www.youtube.com/watch?v=S9uPNppGsGo)
-- [Conteúdo, mundos e projetos](02-python/README.md)
+**Professor:** Gustavo Guanabara — Curso em Vídeo
 
-</details>
+[![Python 3 - Mundo 1 - Aula 01](https://img.youtube.com/vi/S9uPNppGsGo/hqdefault.jpg)](https://www.youtube.com/watch?v=S9uPNppGsGo)
 
-<details open>
-<summary><strong>03 · Git e GitHub</strong> — Gustavo Guanabara / Curso em Vídeo</summary>
+[![Mundo 1](https://img.shields.io/badge/Python_Mundo_1-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLHz_AreHm4dlKP6QQCekuIPky1CiwmdI6)
+[![Mundo 2](https://img.shields.io/badge/Python_Mundo_2-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLHz_AreHm4dk_nZHmxxf_J0WRAqy5Czye)
+[![Mundo 3](https://img.shields.io/badge/Python_Mundo_3-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH)
 
-[![Curso de Git e GitHub — Aula 01](https://img.youtube.com/vi/xEKo29OWILE/hqdefault.jpg)](https://www.youtube.com/watch?v=xEKo29OWILE)
+---
 
-- [Playlist completa](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
-- [Aula inicial](https://www.youtube.com/watch?v=xEKo29OWILE)
-- [Curso no site do Curso em Vídeo](https://www.cursoemvideo.com/curso/curso-de-git-e-github/)
-- [Conteúdo do módulo](03-git-github/README.md)
+### 03 — Git e GitHub
 
-</details>
+**Professor:** Gustavo Guanabara — Curso em Vídeo
 
-<details open>
-<summary><strong>04 · SQL e Bancos de Dados</strong> — Bóson Treinamentos</summary>
+[![Curso de Git e GitHub - Aula 01](https://img.youtube.com/vi/xEKo29OWILE/hqdefault.jpg)](https://www.youtube.com/watch?v=xEKo29OWILE)
 
-[![Bóson Treinamentos — SQL](https://img.youtube.com/vi/G8rKr4G5ZKM/hqdefault.jpg)](https://www.youtube.com/watch?v=G8rKr4G5ZKM)
+**Por que Git aqui?** A partir deste ponto, tudo que você produzir deve ser versionado. Git é a ferramenta padrão do mercado — sem ela você não trabalha em equipe.
 
-- [Vídeo de referência](https://www.youtube.com/watch?v=G8rKr4G5ZKM)
-- [Canal Bóson Treinamentos](https://www.youtube.com/@bosontreinamentos)
-- [Conteúdo, exercícios e links com status de verificação](04-sql-databases/README.md)
+[![Playlist](https://img.shields.io/badge/Playlist_completa-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLHz_AreHm4dm7ZULPAmadvNhH6vk9oNZA)
 
-</details>
+---
 
-<details open>
-<summary><strong>05 · PostgreSQL</strong> — Bóson Treinamentos</summary>
+### 04 — SQL e Bancos de Dados
 
-- [Canal Bóson Treinamentos](https://www.youtube.com/@bosontreinamentos)
-- [Documentação oficial — Tutorial PostgreSQL](https://www.postgresql.org/docs/current/tutorial.html)
-- [Conteúdo e materiais do módulo](05-postgresql/README.md)
+**Canal:** Bóson Treinamentos
 
-> A playlist específica de PostgreSQL permanece pendente de confirmação nos materiais deste repositório. Consulte o módulo para não confundir materiais gerais do canal com uma playlist validada.
+[![Bóson Treinamentos - SQL](https://img.youtube.com/vi/G8rKr4G5ZKM/hqdefault.jpg)](https://www.youtube.com/watch?v=G8rKr4G5ZKM)
 
-</details>
+[![Canal](https://img.shields.io/badge/Canal_Bóson_Treinamentos-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@bosontreinamentos)
 
-<details open>
-<summary><strong>06 · FastAPI do Zero</strong> — Eduardo Mendes / Dunossauro</summary>
+---
 
-[![FastAPI do Zero — Aula 01](https://img.youtube.com/vi/QdSMYGEMFsM/hqdefault.jpg)](https://www.youtube.com/watch?v=QdSMYGEMFsM)
+### 05 — PostgreSQL
 
-- [Playlist FastAPI do Zero](https://www.youtube.com/playlist?list=PLOQgLBuj2-3IuFbt-wJw2p2NiV9WTRzIP)
-- [Aula de referência](https://www.youtube.com/watch?v=QdSMYGEMFsM)
-- [Curso escrito](https://fastapidozero.dunossauro.com/)
-- [Conteúdo e projetos](06-fastapi/README.md)
+**Canal:** Bóson Treinamentos
 
-</details>
+[![Canal](https://img.shields.io/badge/Canal_Bóson_Treinamentos-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@bosontreinamentos)
 
-<details open>
-<summary><strong>07 · Docker</strong> — Jeferson Fernando / LINUXtips</summary>
+---
 
-- [Canal LINUXtips](https://www.youtube.com/@LINUXtips)
-- [Livro aberto — Descomplicando o Docker](https://github.com/badtuxx/DescomplicandoDocker)
-- [Conteúdo e projetos](07-docker/README.md)
+### 06 — FastAPI
 
-> O módulo contém os itens de vídeo e materiais com o respectivo status de verificação.
+**Professor:** Eduardo Mendes (Dunossauro)
 
-</details>
+[![FastAPI do Zero - Aula 01](https://img.youtube.com/vi/QdSMYGEMFsM/hqdefault.jpg)](https://www.youtube.com/watch?v=QdSMYGEMFsM)
 
-<details open>
-<summary><strong>08 · AWS Cloud</strong> — Mundo da Cloud + AWS Skill Builder</summary>
+[![Playlist](https://img.shields.io/badge/Playlist_FastAPI_do_Zero-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/playlist?list=PLOQgLBuj2-3IuFbt-wJw2p2NiV9WTRzIP)
+[![Curso escrito](https://img.shields.io/badge/Curso_escrito-009688?style=flat-square&logo=fastapi&logoColor=white)](https://fastapidozero.dunossauro.com/)
 
-- [AWS Skill Builder](https://skillbuilder.aws/)
-- [Conteúdo, trilha e projetos](08-aws-cloud/README.md)
+---
 
-> Consulte o módulo para distinguir recursos oficiais e links de terceiros ainda não confirmados.
+### 07 — Docker
 
-</details>
+**Professor:** Jeferson Fernando — LINUXtips
 
-## Acompanhamento do progresso
+[![Canal](https://img.shields.io/badge/Canal_LINUXtips-FF0000?style=flat-square&logo=youtube&logoColor=white)](https://www.youtube.com/@LINUXtips)
+[![Livro aberto](https://img.shields.io/badge/Descomplicando_o_Docker-0D1117?style=flat-square&logo=github)](https://github.com/badtuxx/DescomplicandoDocker)
 
-O status inicial dos módulos no repositório-base é **não iniciado**. No seu fork, atualize o [STUDY-TRACKER.md](STUDY-TRACKER.md) à medida que estudar.
+---
 
-| Status | Significado |
-|:---:|---|
-| 🔴 | Não iniciado |
-| 🟡 | Em andamento |
-| 🟢 | Concluído |
-| ⏸️ | Pausado |
+### 08 — AWS Cloud
 
-| # | Módulo | Tracker |
-|:--:|---|---|
-| 01 | Lógica de programação | [Abrir](01-programming-logic/README.md) |
-| 02 | Python — Mundos 1, 2 e 3 | [Abrir](02-python/README.md) |
-| 03 | Git e GitHub | [Abrir](03-git-github/README.md) |
-| 04 | SQL e bancos de dados | [Abrir](04-sql-databases/README.md) |
-| 05 | PostgreSQL | [Abrir](05-postgresql/README.md) |
-| 06 | FastAPI | [Abrir](06-fastapi/README.md) |
-| 07 | Docker | [Abrir](07-docker/README.md) |
-| 08 | AWS Cloud | [Abrir](08-aws-cloud/README.md) |
+**Canal:** Mundo da Cloud + AWS Skill Builder
 
-## Como começar: faça um fork
+[![AWS Skill Builder](https://img.shields.io/badge/AWS_Skill_Builder-232F3E?style=flat-square&logo=amazonaws&logoColor=white)](https://skillbuilder.aws/)
 
-1. Abra o repositório original do Learn Script no GitHub: [github.com/asklipe](https://github.com/asklipe).
-2. Entre no repositório do projeto e clique em **Fork**.
-3. Escolha sua conta como destino. O GitHub criará uma cópia independente sob seu usuário.
-4. Clone o seu fork ou abra-o diretamente no GitHub.
-5. Estude seguindo a ordem do [ROADMAP.md](ROADMAP.md).
-6. Registre seu avanço no [STUDY-TRACKER.md](STUDY-TRACKER.md).
-7. Se quiser usar uma IA, conecte sua conta GitHub à plataforma escolhida e dê acesso explícito ao seu fork.
+---
 
-**Atenção:** não peça para a IA alterar o repositório original `asklipe`. O alvo deve ser o fork que pertence a você.
+## Meu progresso
 
-## Skill de IA — Learn Script Study Assistant
+> Legenda: ⬜ não iniciado · 🟦 em andamento · ✅ concluído
 
-O Learn Script inclui uma especificação de skill independente de fornecedor para que diferentes assistentes possam entender a estrutura da trilha e ajudar no acompanhamento.
+| # | Módulo | Status |
+|---|--------|:------:|
+| 01 | Lógica de programação | ⬜ |
+| 02 | Python (Mundos 1, 2 e 3) | ⬜ |
+| 03 | Git e GitHub | ⬜ |
+| 04 | SQL e bancos de dados | ⬜ |
+| 05 | PostgreSQL | ⬜ |
+| 06 | FastAPI | ⬜ |
+| 07 | Docker | ⬜ |
+| 08 | AWS | ⬜ |
 
-A skill permite que uma IA conectada ao GitHub:
+Acompanhamento detalhado em [STUDY-TRACKER.md](STUDY-TRACKER.md).
 
-- leia o roadmap, módulos, exercícios e tracker do fork autorizado;
-- explique o próximo passo com base no progresso registrado;
-- transforme uma sessão de estudo relatada por você em atualizações no tracker;
-- registre o que foi estudado, concluído, revisado ou ficou pendente;
-- apresente um resumo claro das alterações que pretende fazer;
-- grave as mudanças no seu fork quando a integração GitHub permitir escrita e você autorizar a ação.
+---
 
-**Arquivos e instruções:** [AI-ASSISTANT.md](AI-ASSISTANT.md) · [Skill portátil](.github/skills/learn-script-study-assistant/SKILL.md) · [Especificação de integração](.github/skills/learn-script-study-assistant/INTEGRATION.md).
+## Marcos da jornada
 
-### Como usar com ChatGPT, Claude, Gemini ou outra IA
+| Marco | O que significa | Módulos |
+|-------|----------------|---------|
+| Programador | Você escreve código e versiona projetos | 01 → 04 |
+| Dados | Você modela e consulta bancos de dados | 05 → 06 |
+| API | Você constrói APIs com autenticação e testes | 07 |
+| Produção | Você sobe sua API na nuvem | 08 |
 
-1. Faça fork deste repositório para sua conta.
-2. Conecte o GitHub à IA escolhida. A conexão precisa permitir acesso ao seu fork; para gravar alterações, precisa também ter permissão de escrita.
-3. Abra uma conversa com a IA e informe o endereço do seu fork.
-4. Forneça a skill deste repositório ou peça à IA para ler `.github/skills/learn-script-study-assistant/SKILL.md`.
-5. Peça para ela analisar seu progresso. Depois de estudar, conte o que fez e peça para atualizar o tracker.
-6. Revise o diff e autorize a gravação. Quando a plataforma não oferecer escrita direta, a IA deve preparar um patch ou commit para você aplicar.
-
-A skill é uma **especificação de comportamento**, não uma conexão mágica. Cada plataforma precisa ter uma integração GitHub, ferramenta, MCP ou conector compatível e as permissões necessárias. Não existe garantia de que qualquer modelo, sozinho, consiga escrever no GitHub.
+---
 
 ## Projetos práticos
 
-| Nível | Projeto | Referência |
-|---|---|---|
-| Iniciante | Calculadora em Python | [Projetos Python](02-python/projects/README.md) |
-| Iniciante | Conversor de moedas | [Projetos Python](02-python/projects/README.md) |
-| Iniciante | Sistema de cadastro | [Projetos Python](02-python/projects/README.md) |
-| Intermediário | CRUD com PostgreSQL | [Projetos PostgreSQL](05-postgresql/projects/README.md) |
-| Intermediário | API de tarefas com FastAPI | [Projetos FastAPI](06-fastapi/projects/README.md) |
-| Intermediário | API com autenticação | [Projetos FastAPI](06-fastapi/projects/README.md) |
-| Avançado | API completa com FastAPI e PostgreSQL | [Projetos FastAPI](06-fastapi/projects/README.md) |
-| Avançado | Aplicação com Docker Compose | [Projetos Docker](07-docker/projects/README.md) |
-| Avançado | Deploy de API na AWS | [Projetos AWS](08-aws-cloud/projects/README.md) |
+| Nível | Projeto | Onde |
+|-------|---------|------|
+| Iniciante | Calculadora em Python | [02-python/projects](02-python/projects/README.md) |
+| Iniciante | Conversor de moedas | [02-python/projects](02-python/projects/README.md) |
+| Iniciante | Sistema de cadastro | [02-python/projects](02-python/projects/README.md) |
+| Intermediário | API de tarefas com FastAPI | [06-fastapi/projects](06-fastapi/projects/README.md) |
+| Intermediário | CRUD com PostgreSQL | [05-postgresql/projects](05-postgresql/projects/README.md) |
+| Intermediário | API com autenticação | [06-fastapi/projects](06-fastapi/projects/README.md) |
+| Avançado | API completa FastAPI + PostgreSQL | [06-fastapi/projects](06-fastapi/projects/README.md) |
+| Avançado | Aplicação com Docker Compose | [07-docker/projects](07-docker/projects/README.md) |
+| Avançado | Deploy de API na AWS | [08-aws-cloud/projects](08-aws-cloud/projects/README.md) |
+
+---
 
 ## Documentação oficial
 
-- [Python](https://docs.python.org/3/)
 - [Git](https://git-scm.com/doc) · [GitHub Docs](https://docs.github.com/pt)
-- [PostgreSQL](https://www.postgresql.org/docs/current/tutorial.html)
-- [FastAPI](https://fastapi.tiangolo.com/tutorial/)
-- [Docker](https://docs.docker.com/get-started/)
+- [PostgreSQL Tutorial](https://www.postgresql.org/docs/current/tutorial.html)
+- [FastAPI Tutorial](https://fastapi.tiangolo.com/tutorial/)
+- [Docker — Get started](https://docs.docker.com/get-started/)
 - [AWS Skill Builder](https://skillbuilder.aws/)
 
-## Estrutura
+Lista completa com status de verificação em [RESOURCES.md](RESOURCES.md).
+
+---
+
+## Estrutura do repositório
 
 ```text
 backend-roadmap/
-├── README.md
-├── ROADMAP.md
-├── STUDY-TRACKER.md
-├── RESOURCES.md
-├── AI-ASSISTANT.md
-├── AI-STUDY-LOG.md
-├── .github/
-│   └── skills/
-│       └── learn-script-study-assistant/
-│           ├── SKILL.md
-│           └── INTEGRATION.md
+├── README.md                   ← você está aqui
+├── ROADMAP.md                  ← trilha detalhada com dependências
+├── STUDY-TRACKER.md            ← checklist aula por aula
+├── RESOURCES.md                ← todos os links verificados
+├── CONTRIBUTING.md             ← como contribuir
 ├── 01-programming-logic/
 ├── 02-python/
 ├── 03-git-github/
@@ -276,15 +242,22 @@ backend-roadmap/
 ├── 05-postgresql/
 ├── 06-fastapi/
 ├── 07-docker/
-└── 08-aws-cloud/
+├── 08-aws-cloud/
+└── assets/images/
 ```
+
+---
+
+## Quer conversar ou tirar dúvida?
+
+Abra uma [Issue](../../issues/new) neste repositório. Se você está seguindo a mesma trilha, pode usar as issues para registrar dúvidas, dificuldades ou conquistas — isso também ajuda quem vem depois.
 
 ---
 
 <div align="center">
 
-**Learn Script** · Mantido por [asklipe](https://github.com/asklipe)
+*"Programação é arte disfarçada de ciência. Quanto mais você quebrar a cabeça, mais lindo o código fica."*
 
-[GitHub do admin](https://github.com/asklipe) · [Abrir uma issue](../../issues/new)
+[![GitHub](https://img.shields.io/badge/GitHub-asklipe-0D1117?style=for-the-badge&logo=github)](https://github.com/asklipe)
 
 </div>
