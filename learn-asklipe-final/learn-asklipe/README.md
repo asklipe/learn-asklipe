@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/images/banner.svg" alt="asklipe — Back-End Roadmap" width="800"/>
+<img src="https://i.ibb.co/mYN5FPv/learnasklipe-1.png" alt="asklipe — Back-End Roadmap" width="600"/>
 
 ![Status](https://img.shields.io/badge/status-em_andamento-2F81F7?style=flat-square)
 ![Foco](https://img.shields.io/badge/foco-Back--End-2F81F7?style=flat-square)
