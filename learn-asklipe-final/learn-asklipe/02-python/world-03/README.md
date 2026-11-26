@@ -1,0 +1,52 @@
+# Python 3 — Mundo 3: Estruturas Compostas
+
+<img src="https://skillicons.dev/icons?i=python&theme=dark" height="40" alt="Python" />
+
+[Início](../../README.md) · [Roadmap](../../ROADMAP.md) · [Tracker](../../STUDY-TRACKER.md)
+
+[← Mundo 2](../world-02/README.md)  |  [Projetos de Python →](../projects/README.md)
+
+| Item | Detalhe |
+|------|---------|
+| **Professor** | Gustavo Guanabara |
+| **Canal** | Curso em Vídeo |
+| **Playlist completa** | [Curso de Python 3 — Mundo 3: Estruturas Compostas](https://www.youtube.com/playlist?list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH) |
+| **Site** | [cursoemvideo.com](https://www.cursoemvideo.com/) |
+
+> **Estudando com IA?** Peça ao seu assistente para iniciar o modo *assistindo* neste módulo — veja o [AI-SETUP.md](../../AI-SETUP.md).
+
+## Objetivos
+
+- Trabalhar com tuplas, listas e dicionários.
+- Criar funções, módulos e pacotes.
+- Tratar erros e exceções.
+
+## Video Lessons
+
+> **Verificação:** só entram aqui IDs, títulos e durações conferidos; o que não foi verificado fica como **Link pendente de verificação** (nenhum ID é inventado). Para conferir ou adicionar aulas, veja o [CONTRIBUTING](../../CONTRIBUTING.md).
+
+Os IDs individuais das aulas deste mundo **ainda não foram verificados**. Siga a [playlist](https://www.youtube.com/playlist?list=PLHz_AreHm4dksnH2jVTIVNviIMBVYyFnH) e registre aqui após conferir.
+
+- Tuplas — Link pendente de verificação
+- Listas — Link pendente de verificação
+- Dicionários — Link pendente de verificação
+- Funções — Link pendente de verificação
+- Módulos e pacotes — Link pendente de verificação
+- Tratamento de erros — Link pendente de verificação
+- Exercícios do Mundo 3 — Link pendente de verificação
+
+## Critério de conclusão
+
+Você conclui esta etapa quando (marque no [STUDY-TRACKER](../../STUDY-TRACKER.md)):
+
+- Todas as aulas do Mundo 3 assistidas.
+- Todos os exercícios resolvidos.
+- Escrevi um projeto usando funções, módulos e tratamento de erros.
+
+## Anotações
+
+> Use este espaço para registrar dúvidas, insights e links úteis.
+
+- **O que aprendi:**
+- **O que ainda não entendi:**
+- **Próximos passos:**
